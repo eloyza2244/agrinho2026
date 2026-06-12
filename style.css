@@ -1,0 +1,38 @@
+body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(#87CEEB,#90EE90);
+}
+
+h1{
+    color:#2E8B57;
+}
+
+#game{
+    width:800px;
+    height:500px;
+    margin:auto;
+    border:5px solid green;
+    position:relative;
+    background:#c8f7c5;
+    overflow:hidden;
+}
+
+#player{
+    position:absolute;
+    font-size:50px;
+    left:350px;
+    top:400px;
+}
+
+#item{
+    position:absolute;
+    font-size:40px;
+    left:200px;
+    top:50px;
+}
+
+#info{
+    margin-top:20px;
+    font-size:24px;
+}
